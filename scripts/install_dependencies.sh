@@ -1,3 +1,4 @@
 #!/bin/bash
-cd /home/ec2-user/my-node-app
-npm install
+echo "Updating system and installing Node.js"
+sudo yum update -y
+sudo yum install -y nodejs npm

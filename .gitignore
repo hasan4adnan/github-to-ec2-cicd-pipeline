@@ -1,0 +1,14 @@
+# Terraform vars
+*.tfvars
+*.auto.tfvars
+
+# Terraform local state dosyaları
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# MacOS
+.DS_Store
+
+# Node
+node_modules/

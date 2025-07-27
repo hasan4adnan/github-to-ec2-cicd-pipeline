@@ -1,3 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/my-node-app
-npm start > app.log 2>&1 &
+echo "Starting Node.js App"
+cd /home/ec2-user/app
+npm install
+npm start &
