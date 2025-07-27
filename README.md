@@ -3,6 +3,7 @@
 This project demonstrates a **complete CI/CD pipeline** using AWS services like **CodePipeline, CodeBuild, CodeDeploy**, and **EC2**. It automatically builds and deploys a Node.js application to EC2 instances when changes are pushed to the GitHub repository.
 
 > ✅ Infrastructure is provisioned using **Terraform** for full automation and reproducibility.
+<img width="1479" height="801" alt="Ekran Resmi 2025-07-27 16 16 21" src="https://github.com/user-attachments/assets/87e8f0c5-f9b2-4be7-9041-ec5de3368273" />
 
 ---
 
@@ -44,6 +45,7 @@ GitHub → AWS CodePipeline → CodeBuild → Manual Approval → CodeDeploy →
 ---
 
 ## ⚙️ Deployment Lifecycle
+<img width="1726" height="914" alt="Ekran Resmi 2025-07-27 18 16 01" src="https://github.com/user-attachments/assets/cc002366-c8f8-4c4d-b6d9-b1ea5a6cce1a" />
 
 1. **Push Code to GitHub**
    - Triggers CodePipeline
@@ -141,9 +143,11 @@ artifacts:
 
 ---
 
-## 📸 Screenshots
+## 📸 Approve Stage / Comments 
 
-Add screenshots of your pipeline stages or deployment success screen here.
+<img width="1728" height="915" alt="Ekran Resmi 2025-07-27 17 44 24" src="https://github.com/user-attachments/assets/61e56ff9-0192-4aa3-8866-a6caaa52f8b7" />
+
+<img width="1725" height="915" alt="Ekran Resmi 2025-07-27 17 42 45" src="https://github.com/user-attachments/assets/1075faa6-d9fb-4c3e-b0b1-b179a92246d4" />
 
 ---
 
